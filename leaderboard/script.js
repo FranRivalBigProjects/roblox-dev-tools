@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let arr=scores.value.split('\n').map(Number).filter(n=>!isNaN(n));if(!arr.length){res.innerText='Enter values';return;}res.innerText=`Top: ${Math.max(...arr)}`;}

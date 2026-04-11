@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){res.innerText=code.value.includes('function')?'Valid structure':'Check script';}

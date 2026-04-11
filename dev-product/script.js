@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let s=+sales.value,p=+price.value;if(!s||!p){res.innerText='Enter values';return;}res.innerText=`Total: ${s*p}`;}

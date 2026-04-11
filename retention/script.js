@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let s=+start.value,e=+end.value;if(!s||!e){res.innerText='Enter values';return;}res.innerText=`Retention: ${(e/s*100).toFixed(2)}%`;}

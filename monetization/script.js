@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+players.value,c=+conversion.value;if(!p||!c){res.innerText='Enter values';return;}res.innerText=`Paying users: ${(p*c/100).toFixed(0)}`;}
